@@ -2,6 +2,7 @@ backend:
   name: github
   repo: Erteo99/webturikaleprint
   branch: main
+  client_id: Ov23li953DFR0757Q9M8
 
 media_folder: "public/assets/images/uploads"
 public_folder: "/assets/images/uploads"
