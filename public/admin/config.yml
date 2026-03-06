@@ -1,8 +1,9 @@
 backend:
   name: github
-  repo: USERNAME/REPOSITORY
+  repo: Erteo99/webturikaleprint
+  branch: main
 
-media_folder: "assets/images/uploads"
+media_folder: "public/assets/images/uploads"
 public_folder: "/assets/images/uploads"
 
 collections:
@@ -26,8 +27,3 @@ collections:
       - { label: "Nama Logo", name: "title", widget: "string" }
       - { label: "Kategori", name: "category", widget: "string" }
       - { label: "File Logo", name: "image", widget: "image" }
-
-backend:
-  name: github
-  repo: username/repository
-  branch: main
